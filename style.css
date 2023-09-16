@@ -1,0 +1,126 @@
+body{
+    background-image:
+            linear-gradient( to right,
+            white,
+            dimgrey
+            );
+    background-size: cover;
+}
+
+#main-header{
+    background-color: whitesmoke;
+    margin-left: 15%;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fit-content;
+}
+
+#main-header ~ #table-of-content, #introduction, #languages{
+    margin-left: 18%;
+    width: 50%;
+    height: auto;
+}
+hr{
+    width: 150%;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+h4{
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+#links{
+    position:fixed;
+    top:120px;
+    left:40px;
+    border:10px aquamarine;
+}
+#links a:link{
+    text-decoration:none ;
+}
+
+#table-of-content{
+    border: 10px aqua;
+}
+
+
+#introduction p{
+    background-color: snow;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 80px;
+    font-style: initial;
+}
+#tutor{
+    margin-left:200px;
+    border: 2px solid black;
+    padding: 3px;
+}
+
+#languages p, table{
+    background-color: snow;
+    background-size: contain;
+    font-size: 20px;
+    padding: 10px;
+}
+h3, .list{
+    background-image: linear-gradient(to right, white, darkgrey);
+    padding: 10px;
+}
+#Java {
+    padding: 10px;
+    background-image: linear-gradient(to right, white 40%, red 70%, darkslateblue 100%);
+}
+#Python{
+    padding: 10px;
+    background-image: linear-gradient(to right, white 40%, yellow 70%,blue 100%);
+}
+#Javascript{
+    padding: 10px;
+    background-image: linear-gradient(to right, white 40%, yellow 70%, white 100%);
+}
+#sql {
+    padding: 10px;
+    background-image: linear-gradient(to right, white 40%, orange 70%, black 100%);
+}
+#Ruby{
+    padding: 10px;
+    background-image: linear-gradient(to right, white 40%, red 70%, white 100%);
+}
+.list{
+    margin-bottom: 40px;
+}
+.language{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.adv{
+    list-style-type: "🟢";
+}
+.disadv{
+    list-style-type: "🔴";
+}
+
+table, td{
+    margin-bottom: 40px;
+}
+td{
+    width: 150px;
+}
+tr td:last-child{
+    color: black;
+}
+#footer{
+    background-color: dimgrey;
+    height: 60px;
+    width: revert;
+}
